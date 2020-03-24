@@ -1,0 +1,394 @@
+os/libusb_1_0_la-linux_netlink.lo: os/linux_netlink.c \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdc-predef.h \
+ ../config.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/assert.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/features.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/cdefs.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/wordsize.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/long-double.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/gnu/stubs.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/gnu/stubs-lp64.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/errno.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/errno.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/errno.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/errno.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/errno.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/errno-base.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/fcntl.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/typesizes.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/fcntl.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/fcntl-linux.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_iovec.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include/stddef.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/falloc.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_timespec.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stat.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/endian.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/endian.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/byteswap.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/byteswap-16.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/uintn-identity.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/poll.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/poll.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/poll.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__sigset_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdio.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/libc-header-start.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__FILE.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/FILE.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/libio.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/_G_config.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__mbstate_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include/stdarg.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdio_lim.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sys_errlist.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdio.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdlib.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/waitflags.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/waitstatus.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/floatn.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/floatn-common.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/locale_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__locale_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/clock_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/clockid_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/time_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/timer_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdint-intn.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/select.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/select.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/sigset_t.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_timeval.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/sysmacros.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sysmacros.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/pthreadtypes.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/thread-shared-types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/pthreadtypes-arch.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/alloca.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdlib-bsearch.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdlib-float.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/string.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/strings.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/unistd.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/posix_opt.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/environments.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/confname.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/getopt_posix.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/getopt_core.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/int-ll64.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/bitsperlong.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/bitsperlong.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/socket.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/socket.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/socket_type.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sockaddr.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/socket.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/socket.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/sockios.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/sockios.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_osockaddr.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/netlink.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/kernel.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/sysinfo.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/posix_types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/stddef.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/posix_types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/posix_types.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/socket.h \
+ libusbi.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include/stdint.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdint.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/wchar.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdint-uintn.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/time.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/time.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/timex.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_tm.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_itimerspec.h \
+ libusb.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/time.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include-fixed/limits.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include-fixed/syslimits.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/limits.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/posix1_lim.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/local_lim.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/limits.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/posix2_lim.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/xopen_lim.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/uio_lim.h \
+ version.h version_nano.h os/threads_posix.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/pthread.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sched.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sched.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/cpu-set.h \
+ /home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/setjmp.h \
+ os/poll_posix.h os/linux_usbfs.h
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdc-predef.h:
+
+../config.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/assert.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/features.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/cdefs.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/wordsize.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/long-double.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/gnu/stubs.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/gnu/stubs-lp64.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/errno.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/errno.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/errno.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/errno.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/errno.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/errno-base.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/fcntl.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/typesizes.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/fcntl.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/fcntl-linux.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_iovec.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include/stddef.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/falloc.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_timespec.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stat.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/endian.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/endian.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/byteswap.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/byteswap-16.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/uintn-identity.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/poll.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/poll.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/poll.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__sigset_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdio.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/libc-header-start.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__FILE.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/FILE.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/libio.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/_G_config.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__mbstate_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include/stdarg.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdio_lim.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sys_errlist.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdio.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdlib.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/waitflags.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/waitstatus.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/floatn.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/floatn-common.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/locale_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/__locale_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/clock_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/clockid_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/time_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/timer_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdint-intn.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/select.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/select.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/sigset_t.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_timeval.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/sysmacros.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sysmacros.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/pthreadtypes.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/thread-shared-types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/pthreadtypes-arch.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/alloca.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdlib-bsearch.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdlib-float.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/string.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/strings.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/unistd.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/posix_opt.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/environments.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/confname.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/getopt_posix.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/getopt_core.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/int-ll64.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/bitsperlong.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/bitsperlong.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/socket.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/socket.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/socket_type.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sockaddr.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/socket.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/socket.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/sockios.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/sockios.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_osockaddr.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/netlink.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/kernel.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/sysinfo.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/posix_types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/stddef.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm/posix_types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/asm-generic/posix_types.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/socket.h:
+
+libusbi.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include/stdint.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/stdint.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/wchar.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/stdint-uintn.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/time.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/time.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/timex.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_tm.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/types/struct_itimerspec.h:
+
+libusb.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sys/time.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include-fixed/limits.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/lib/gcc/aarch64-openwrt-linux-gnu/7.4.0/include-fixed/syslimits.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/limits.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/posix1_lim.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/local_lim.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/linux/limits.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/posix2_lim.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/xopen_lim.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/uio_lim.h:
+
+version.h:
+
+version_nano.h:
+
+os/threads_posix.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/pthread.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/sched.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/sched.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/cpu-set.h:
+
+/home/moyilong/OpenWRT/openwrt-master-raspberry/staging_dir/toolchain-aarch64_cortex-a53_gcc-7.4.0_glibc/include/bits/setjmp.h:
+
+os/poll_posix.h:
+
+os/linux_usbfs.h:
